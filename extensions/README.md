@@ -36,3 +36,6 @@ uv run pytest packages/pi_subagent/tests/ -v
 | `OMA_DATABASE_PATH` | `./data/oma.db` | Agent config DB for `resolve_sub_agents()` |
 | `DATABASE_PATH` | (fallback) | Alternate DB path env name |
 | `PIPY_SUBAGENT_EXTENSION` | sibling repo path | Override extension file location |
+
+
+
