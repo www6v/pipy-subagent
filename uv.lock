@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.11"
 
 [manifest]
@@ -151,7 +151,7 @@ wheels = [
 [[package]]
 name = "pi-agent"
 version = "0.0.1"
-source = { git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_agent&branch=v0.2.0#cc0228ba74acb4b0b0211dc7972d756f62d23663" }
+source = { git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_agent&branch=v0.3.0#97e97074694faaaac06931c669c1cb2f3d55b6be" }
 dependencies = [
     { name = "jsonschema" },
     { name = "pi-ai" },
@@ -160,7 +160,7 @@ dependencies = [
 [[package]]
 name = "pi-ai"
 version = "0.0.1"
-source = { git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_ai&branch=v0.2.0#cc0228ba74acb4b0b0211dc7972d756f62d23663" }
+source = { git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_ai&branch=v0.3.0#97e97074694faaaac06931c669c1cb2f3d55b6be" }
 dependencies = [
     { name = "httpx" },
 ]
@@ -177,8 +177,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "pi-agent", git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_agent&branch=v0.2.0" },
-    { name = "pi-ai", git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_ai&branch=v0.2.0" },
+    { name = "pi-agent", git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_agent&branch=v0.3.0" },
+    { name = "pi-ai", git = "https://gitee.com/www6v6v/piPy.git?subdirectory=packages%2Fpi_ai&branch=v0.3.0" },
     { name = "pydantic", specifier = ">=2.0" },
 ]
 
